@@ -1,8 +1,8 @@
 # PDF Merger
 
-A beautiful, modern macOS desktop application for merging PDF files built with Electron, React, Tailwind CSS, and pdf-lib.
+**Weekly Vibe Code Challenge: Project 1**
 
-![PDF Merger](build/screenshot.png)
+A macOS desktop application for merging PDF files built with Electron, React, Tailwind CSS, and pdf-lib.
 
 ## Features
 
