@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
 import DropZone from './components/DropZone';
 import PDFList from './components/PDFList';
 import MergeButton from './components/MergeButton';
@@ -126,11 +127,11 @@ function App() {
 
     return (
         <div className="min-h-screen flex flex-col">
-            {/* Draggable Title Bar */}
-            <div className="draggable-region h-12" />
+            {/* Header */}
+            <Header />
 
             {/* Main Content */}
-            <div className="flex-1 flex flex-col gap-6 max-w-4xl mx-auto w-full px-8 pb-8">
+            <div className="flex-1 flex flex-col gap-6 max-w-4xl mx-auto w-full px-8 pt-20 pb-8">
                 {/* Drop Zone */}
                 <DropZone onFilesAdded={handleFilesAdded} onBrowse={handleBrowseFiles} />
 
